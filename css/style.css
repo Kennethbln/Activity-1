@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FCA311;
+	color: #000;
+	font-size: 12px;
+	font-family: verdana, 'Times New Roman';
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #FCA311;
+}
+
+a:hover, a:active {
+	background-color: #FCA311;
+	color: #fff;
+}
+
+.body {
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+}
+
+.mainHeader img {
+	width: 12%;
+	height: auto;
+	Margin: 2% 0;
+}
+
+.mainHeader  nav {
+	background-color: #14213D;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader  nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader  nav ul  li{
+	float: left;
+	display: inline;
+}
+
+.mainHeader  nav a:link, .mainHeader  nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	margin:0px;
+	height: 20px;
+}
+
+.mainHeader  nav a:hover, .mainHeader  nav a:active,
+.mainHeader  nav .active a:link, .mainHeader  nav .active a:visited {
+	background-color: #000;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.top-content, .mid-content, .bottom-content {
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.top-sidebar, .mid-sidebar, .bottom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #e5e5e5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 1.5% 0 0 3%;
+	padding: 2% 3%;
+}
+
+/**.mid-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 1.5% 0 0 3%;
+	padding: 2% 3%;
+}
+
+.bottom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 1.5% 0 0 3%;
+	padding: 2% 3%;
+}
+**/
+
+.mainFooter{
+	width:100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	background-color: #000;
+	margin: 1.5% 0 0 0;
+}
+
+.mainFooter p {
+	width:92%;
+	margin: 10px auto;
+	color: #FFF;
+}
+
+
+
+
+
+
